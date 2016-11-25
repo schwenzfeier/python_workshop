@@ -1,0 +1,308 @@
+## Here's an example of a single streamed tweet, indented to make things easier to read:
+
+{'contributors': None, 
+ 'truncated': False, 
+ 'text': u'RT @VICE: Is the LGBTQ community ready to fight in Trump\u2019s America? https://t.co/FAHydg1jTR https://t.co/rG8VZS7vBF', 
+ 'is_quote_status': False, 
+ 'in_reply_to_status_id': None, 
+ 'id': 802172860332646401, 
+ 'favorite_count': 0, 
+ 'source': '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>', 
+ 'retweeted': False, 
+ 'coordinates': None, 
+ 'timestamp_ms': '1480087888211', 
+ 'entities': {
+ 		'user_mentions': [{
+ 							'id': 23818581, 
+ 							'indices': [3, 8], 
+ 							'id_str': '23818581', 
+ 							'screen_name': 'VICE', 
+ 							'name': 'VICE'
+ 							}], 
+ 		'symbols': [], 
+ 		'hashtags': [], 
+ 		'urls': [{
+ 				'url': 'https://t.co/FAHydg1jTR', 
+ 				'indices': [68, 91], 
+ 				'expanded_url': 'http://bit.ly/2fyff22', 
+ 				'display_url': 'bit.ly/2fyff22'
+ 				}], 
+ 				'media': [{
+ 					'source_user_id': 23818581, 
+ 					'source_status_id_str': '802172499383517184', 
+ 					'expanded_url': 'https://twitter.com/VICE/status/802172499383517184/photo/1', 
+ 					'display_url': 'pic.twitter.com/rG8VZS7vBF', 
+ 					'url': 'https://t.co/rG8VZS7vBF', 
+ 					'media_url_https': 'https://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg', 
+ 					'source_user_id_str': '23818581', 
+ 					'source_status_id': 802172499383517184, 
+ 					'id_str': '802127832889573377', 
+ 					'sizes': {
+ 						'large': {
+ 							'h': 442, 
+ 							'resize': 'fit', 
+ 							'w': 648
+ 							}, 
+ 						'small': {
+ 							'h': 442, 
+ 							'resize': 'fit', 
+ 							'w': 648
+ 							}, 
+ 						'medium': {
+ 							'h': 442, 
+ 							'resize': 'fit', 
+ 							'w': 648
+ 							}, 
+ 						'thumb': {'h': 150, 'resize': 'crop', 'w': 150
+ 							}
+ 						}, 
+ 					'indices': [92, 115], 
+ 					'type': 'photo', 
+ 					'id': 802127832889573377, 
+ 					'media_url': 'http://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg'
+ 					}]}, 
+ 'in_reply_to_screen_name': None, 
+ 'id_str': '802172860332646401', 
+ 'retweet_count': 0, 
+ 'in_reply_to_user_id': None, 
+ 'favorited': False, 
+ 'retweeted_status': {
+ 	'contributors': None, 
+ 	'truncated': False, 
+ 	'text': u'Is the LGBTQ community ready to fight in Trump\u2019s America? https://t.co/FAHydg1jTR https://t.co/rG8VZS7vBF', 
+ 	'is_quote_status': False, 
+ 	'in_reply_to_status_id': None, 
+ 	'id': 802172499383517184, 
+ 	'favorite_count': 0, 
+ 	'source': '<a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>', 
+ 	'retweeted': False, 
+ 	'coordinates': None, 
+ 	'entities': {
+ 		'user_mentions': [], 
+ 		'symbols': [], 
+ 		'hashtags': [], 
+ 		'urls': [
+ 			{'url': 'https://t.co/FAHydg1jTR', 
+ 			'indices': [58, 81], 
+ 			'expanded_url': 'http://bit.ly/2fyff22', 
+ 			'display_url': 'bit.ly/2fyff22'}], 
+ 			'media': [{'expanded_url': 'https://twitter.com/VICE/status/802172499383517184/photo/1', 
+ 			'display_url': 'pic.twitter.com/rG8VZS7vBF', 
+ 			'url': 'https://t.co/rG8VZS7vBF', 
+ 			'media_url_https': 'https://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg', 
+ 			'id_str': '802127832889573377', 
+ 			'sizes': {
+ 				'large': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648
+ 					}, 
+ 				'small': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648
+ 					}, 
+ 				'medium': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648
+ 					}, 
+ 				'thumb': {
+ 					'h': 150, 
+ 					'resize': 'crop', 
+ 					'w': 150
+ 					}
+ 				}, 
+ 			'indices': [82, 105], 
+ 			'type': 
+ 			'photo', 
+ 			'id': 802127832889573377, 
+ 			'media_url': 'http://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg'
+ 			}
+ 		]}, 
+ 	'in_reply_to_screen_name': None, 
+ 	'id_str': '802172499383517184', 
+ 	'display_text_range': [0, 81], 
+ 	'retweet_count': 2, 
+ 	'in_reply_to_user_id': None, 
+ 	'favorited': False, 
+ 	'user': {
+ 		'follow_request_sent': None, 
+ 		'profile_use_background_image': True, 
+ 		'default_profile_image': False, 
+ 		'id': 23818581, 
+ 		'verified': True, 
+ 		'profile_image_url_https': 'https://pbs.twimg.com/profile_images/672036189273120768/4_Esv2H4_normal.jpg', 
+ 		'profile_sidebar_fill_color': 'F7F3F2', 
+ 		'profile_text_color': '333333', 
+ 		'followers_count': 1641066, 
+ 		'profile_sidebar_border_color': '000000', 
+ 		'id_str': '23818581', 
+ 		'profile_background_color': 'FFFFFF', 
+ 		'listed_count': 15687, 
+ 		'profile_background_image_url_https': 'https://pbs.twimg.com/profile_background_images/681263517/5560e6fa257be5ef1408b3d6295390a5.jpeg', 
+ 		'utc_offset': -18000, 
+ 		'statuses_count': 72279, 
+ 		'description': 'The definitive guide to enlightening information.', 
+ 		'friends_count': 13020, 
+ 		'location': 'Brooklyn, NY', 
+ 		'profile_link_color': '077AC0', 
+ 		'profile_image_url': 'http://pbs.twimg.com/profile_images/672036189273120768/4_Esv2H4_normal.jpg', 
+ 		'following': None, 
+ 		'geo_enabled': False, 
+ 		'profile_banner_url': 'https://pbs.twimg.com/profile_banners/23818581/1474319432', 
+ 		'profile_background_image_url': 'http://pbs.twimg.com/profile_background_images/681263517/5560e6fa257be5ef1408b3d6295390a5.jpeg', 
+ 		'name': 'VICE', 
+ 		'lang': 'en', 
+ 		'profile_background_tile': False, 
+ 		'favourites_count': 1353, 
+ 		'screen_name': 'VICE', 
+ 		'notifications': None, 
+ 		'url': 'http://www.vice.com', 
+ 		'created_at': 'Wed Mar 11 20:00:38 +0000 2009', 
+ 		'contributors_enabled': False, 
+ 		'time_zone': 'Eastern Time (US & Canada)', 
+ 		'protected': False, 
+ 		'default_profile': False, 
+ 		'is_translator': False
+ 		}, 
+ 	'geo': None, 
+ 	'in_reply_to_user_id_str': None, 
+ 	'possibly_sensitive': False, 
+ 	'lang': 'en', 
+ 	'created_at': 'Fri Nov 25 15:30:02 +0000 2016', 
+ 	'filter_level': 'low', 
+ 	'in_reply_to_status_id_str': None, 
+ 	'place': None, 
+ 	'extended_entities': {
+ 		'media': [{
+ 			'expanded_url': 'https://twitter.com/VICE/status/802172499383517184/photo/1', 
+ 			'display_url': 'pic.twitter.com/rG8VZS7vBF', 
+ 			'url': 'https://t.co/rG8VZS7vBF', 
+ 			'media_url_https': 'https://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg', 
+ 			'id_str': '802127832889573377', 
+ 			'sizes': {
+ 				'large': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648
+ 					}, 
+ 				'small': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648}, 
+ 				'medium': {
+ 					'h': 442, 
+ 					'resize': 'fit', 
+ 					'w': 648
+ 					}, 
+ 				'thumb': {
+ 					'h': 150, 
+ 					'resize': 'crop', 
+ 					'w': 150
+ 					}
+ 				}, 
+ 			'indices': [82, 105], 
+ 			'type': 'photo', 
+ 			'id': 802127832889573377, 
+ 			'media_url': 'http://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg'
+ 			}
+ 		]}
+ 	}, 
+ 'user': {
+ 	'follow_request_sent': None, 
+ 	'profile_use_background_image': True, 
+ 	'default_profile_image': False, 
+ 	'id': 233765371, 
+ 	'verified': False, 
+ 	'profile_image_url_https': 'https://pbs.twimg.com/profile_images/788996190792773632/7TsxQ005_normal.jpg', 
+ 	'profile_sidebar_fill_color': 'A8A8A8', 
+ 	'profile_text_color': '000000', 
+ 	'followers_count': 1049, 
+ 	'profile_sidebar_border_color': '000000', 
+ 	'id_str': '233765371', 
+ 	'profile_background_color': '000000', 
+ 	'listed_count': 10, 
+ 	'profile_background_image_url_https': 'https://pbs.twimg.com/profile_background_images/732267930/f66029d1e40267718dd786ed1e7224cc.jpeg', 
+ 	'utc_offset': -18000, 
+ 	'statuses_count': 84443, 
+ 	'description': u'[adult swim] \u2708\ufe0f Hell On A Scale #BeardGang', 
+ 	'friends_count': 637, 
+ 	'location': 'ATLANTA', 
+ 	'profile_link_color': 'FF0000', 
+ 	'profile_image_url': 'http://pbs.twimg.com/profile_images/788996190792773632/7TsxQ005_normal.jpg', 
+ 	'following': None, 'geo_enabled': True, 
+ 	'profile_banner_url': 'https://pbs.twimg.com/profile_banners/233765371/1478881277', 
+ 	'profile_background_image_url': 'http://pbs.twimg.com/profile_background_images/732267930/f66029d1e40267718dd786ed1e7224cc.jpeg', 
+ 	'name': u'Quis \xa9', 
+ 	'lang': 'en', 
+ 	'profile_background_tile': True, 
+ 	'favourites_count': 4882, 
+ 	'screen_name': 'CocaineQ', 
+ 	'notifications': None, 
+ 	'url': None, 
+ 	'created_at': 'Tue Jan 04 01:57:44 +0000 2011', 
+ 	'contributors_enabled': False, 
+ 	'time_zone': 'Eastern Time (US & Canada)', 
+ 	'protected': False, 
+ 	'default_profile': False, 
+ 	'is_translator': False
+ 	}, 
+ 'geo': None, 
+ 'in_reply_to_user_id_str': None,
+ 'possibly_sensitive': False, 
+ 'lang': 'en', 
+ 'created_at': 'Fri Nov 25 15:31:28 +0000 2016', 
+ 'filter_level': 'low', 
+ 'in_reply_to_status_id_str': None, 
+ 'place': None, 
+ 'extended_entities': {
+ 	'media': [{
+ 		'source_user_id': 23818581, 
+ 		'source_status_id_str': '802172499383517184', 
+ 		'expanded_url': 'https://twitter.com/VICE/status/802172499383517184/photo/1', 
+ 		'display_url': 'pic.twitter.com/rG8VZS7vBF', 
+ 		'url': 'https://t.co/rG8VZS7vBF', 
+ 		'media_url_https': 'https://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg', 
+ 		'source_user_id_str': '23818581', 
+ 		'source_status_id': 802172499383517184, 
+ 		'id_str': '802127832889573377', 
+ 		'sizes': {
+ 			'large': {
+ 				'h': 442, 
+ 				'resize': 'fit', 
+ 				'w': 648
+ 				}, 
+ 			'small': {
+ 				'h': 442, 
+ 				'resize': 'fit', 
+ 				'w': 648
+ 				}, 
+ 			'medium': {
+ 				'h': 442, 
+ 				'resize': 'fit', 
+ 				'w': 648
+ 				}, 
+ 			'thumb': {
+ 				'h': 150, 
+ 				'resize': 'crop', 
+ 				'w': 150
+ 				}
+ 			}, 
+ 		'indices': [92, 115], 
+ 		'type': 'photo', 
+ 		'id': 802127832889573377, 
+ 		'media_url': 'http://pbs.twimg.com/media/CyG7A5_WQAE0LPB.jpg'
+ 		}
+ 	]}
+ }
+
+
+
+
+
+
+
+
+
+
