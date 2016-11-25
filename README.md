@@ -1,34 +1,36 @@
 # William & Mary Python Workshop
-## November 2016
+### November 2016
 
-## Setup instructions
+## Before the workshop
+### Setup instructions
 
 1. Click through the email you received from me to create a free Cloud9 account (do not go directly through Cloud9)
   * Email me at [mjschwenzfeier@gmail.com](mjschwenzfeier@gmail.com) if you have trouble creating an account or didn't get an email
-2. Read through the workshop powerpoint in this Git repo and feel free to play around with Cloud9!
+2. Set up a Twitter account if you don't already have one
+3. Read through the workshop powerpoint in this Git repo and feel free to play around with Cloud9!
 
 
-
-## Using Python on your local machine
-#### Text editors
+## To continue after the workshop
+### Using Python on your local machine
+##### Text editors
 I am partial to [Sublime text](https://www.sublimetext.com/) but there are lots of great editors out there
 
-#### Shells
+##### Shells
 Macs come with a built-in shell called the Terminal app
 
 There are [a bunch of options](https://www.slant.co/topics/1552/~terminal-emulators-for-windows) for Windows users
 
-#### Mac Users
+##### Mac Users
 Macs come with Python already installed!
   * Just open Terminal and `cd` into the directory where your Python file is saved
   * `python my_file.py` to run it
 
-#### Windows Users
+##### Windows Users
 Download Python 2.7 [here](https://www.python.org/downloads/release/python-2712/)
 
 
 
-## Other resources
+### Other resources
 
 [Codecademy](https://www.codecademy.com/)
 
