@@ -107,4 +107,20 @@ print directory['Schwenzfeier']['age']
 print directory['Settle']['favorite_foods']
 
 
+#########################
+## Looping
+#########################
+## For loops - go through each item in a list and do something
+for num in xrange(0,20):
+	print num 
+
+## While loops - while a condition is met, do something
+current_number = 31
+while current_number > 5:
+	print current_number
+	current_number = current_number - 1 ## With while loops you have to do something to the condition or it will run forever because it will always be True
+
+
+
+
 
