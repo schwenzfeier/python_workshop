@@ -27,10 +27,10 @@ class TwitterStreamer(TwythonStreamer):
                 print status_code
 
 # These should be filled in using the API keys from your application at apps.twitter.com
-APP_KEY = '6OBQlBbthdhjD78eFxydI9pb7'
-APP_SECRET = 'hbnv3T3nD0lZ76in7hMAhI70GlvpXkgrNnMsNwTCYM1jbrtQru'
-OATH_TOKEN = '225468091-1oI2aER8M8q1TuzdqiXfITI81UPolFeoHv2MBaRi'
-OATH_TOKEN_SECRET = 'xP0w2598zQVGTSiCU1ElUJ1fcSA8AGPNe4PwpHIuaWUOD'
+APP_KEY = ''
+APP_SECRET = ''
+OATH_TOKEN = ''
+OATH_TOKEN_SECRET = ''
 
 
 ## Here's how we run it from the command line!
