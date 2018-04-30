@@ -1,14 +1,5 @@
 # William & Mary Python Workshop
-### November 2016
-
-## Before the workshop
-### Setup instructions
-
-1. Click through the email you received from me to create a free Cloud9 account (do not go directly through Cloud9)
-  * Email me at [mjschwenzfeier@gmail.com](mjschwenzfeier@gmail.com) if you have trouble creating an account or didn't get an email
-2. Set up a Twitter account if you don't already have one
-3. Read through the workshop powerpoint in this Git repo and feel free to play around with Cloud9!
-
+### April 2018
 
 ## To continue after the workshop
 ### Using Python on your local machine
@@ -33,8 +24,6 @@ Download Python 2.7 [here](https://www.python.org/downloads/release/python-2712/
 ### Other resources
 
 [Codecademy](https://www.codecademy.com/)
-
-[Python for Data Analysis](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) - Free Ebook
 
 [Comparison of R and Python](https://www.dataquest.io/blog/python-vs-r/)
 
