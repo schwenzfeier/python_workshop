@@ -19,16 +19,18 @@ class TwitterStreamer(TwythonStreamer):
         def on_success(self, data):
                 f = open(self.file_n, 'a')
                 print(data['text'])
-                f.writelines(str(data) + "\n")
+                # f.writelines(str(data) + "\n")
+                json.dump(data, f)
+                f.write('\n')
                 
         def on_error(self, status_code, data):
                 print status_code
 
 # These should be filled in using the API keys from your application at apps.twitter.com
-APP_KEY = ''
-APP_SECRET = ''
-OATH_TOKEN = ''
-OATH_TOKEN_SECRET = ''
+APP_KEY = '6OBQlBbthdhjD78eFxydI9pb7'
+APP_SECRET = 'hbnv3T3nD0lZ76in7hMAhI70GlvpXkgrNnMsNwTCYM1jbrtQru'
+OATH_TOKEN = '225468091-1oI2aER8M8q1TuzdqiXfITI81UPolFeoHv2MBaRi'
+OATH_TOKEN_SECRET = 'xP0w2598zQVGTSiCU1ElUJ1fcSA8AGPNe4PwpHIuaWUOD'
 
 
 ## Here's how we run it from the command line!
@@ -63,11 +65,11 @@ if __name__ == '__main__':
                 ## If you're filtering:
                 if sys.argv[2] == 'filter':
                         ## Print that you're filtering
+                        filter_words = sys.argv[3] ## The search words we passed in
                         print "\n\nStreaming tweets with {0}... Hit Ctrl-c to stop.".format(filter_words)
                         
                         ## Loop endlessly, unless you hit an error, then print the error and stop
                         while True:
-                                filter_words = sys.argv[3] ## The search words we passed in
                                 
                                 ## Try to do this
                                 try:

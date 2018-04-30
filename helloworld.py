@@ -9,7 +9,7 @@ i = 100
 i2 = 3
 f = 3.0
 f2 = 2.5783940
-l = ['meg', 24, 'Virginia']
+l = ['meg', 26, 'Virginia']
 
 ## You can format strings like so:
 print "This is a string: {0}".format(s)
@@ -85,14 +85,14 @@ if age > 35:
 directory = {
 	'Schwenzfeier': {'last_name': 'Schwenzfeier',
 		'first_name': 'Meg',
-		'age': 24,
-		'city': 'Brooklyn',
-		'state': 'NY',
+		'age': 26,
+		'city': 'Cambridge',
+		'state': 'MA',
 		'favorite_foods': ['pizza','watermelon','jello']
 		},
 	'Settle': {'last_name': 'Settle',
 	    'first_name': 'Jaime',
-	    'age': 31,
+	    'age': 32,
 	    'city': 'Williamsburg',
 	    'state': 'VA',
 	    'favorite_foods': ['frozen waffles']}
